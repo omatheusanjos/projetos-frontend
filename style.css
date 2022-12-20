@@ -1,0 +1,46 @@
+* {
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Unbounded";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(211, 231, 248, 0.637);
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.151);
+  background-color: white;
+}
+
+img {
+  border-radius: 13px;
+}
+
+h1 {
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+p {
+  margin: 0px 0px 20px 0px;
+  font-size: 12px;
+  padding: 0px 10px;
+  font-weight: 400;
+  color: rgb(156, 156, 156);
+}
